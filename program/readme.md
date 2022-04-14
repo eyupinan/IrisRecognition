@@ -1,4 +1,4 @@
-
+## Notlar
 -programin kullanilabilir hale getirilebilmesi için ilk olarak fcn_segmentation.py kodunun çalistirilmasi gerekir.
 Bu kod ground_truth klasörü içerisindeki dataya göre bir fcn modeli olusturup fcn_model klasörünün içerisine kaydeder.
 Fcn modelinin olusturulmasinin ardindan multi_cnn çalistirilarak model model egitilebilir hale gelir.
@@ -9,7 +9,7 @@ ekran karti kulanim desteginin saglanmasi gerekmektedir. Ekran karti desteginin 
 Cuda 10.1 versiyonunun ve cudNN modüllerinin yüklü olmasi gerekmektedir. GPU kullanimi desteginin saglanmamasi durumunda 
 program yavas çalisacaktir.
 
--KULLANIM
+## KULLANIM
 
 Fcn modelinin egitiminden önce datanin hazirlanma asamasinin uzun sürmesinden dolayi egitim asamasinin baslamasi zaman alabilir.
 Fcn modelinin gerçekçi bir model olmasi için kayip degerinin sifira çok yakin bir deger olmasi gerekir. Baslangiçta default olarak 
@@ -25,7 +25,7 @@ iris recognization kendisine verilen correct label ve dataset için konumlar list
 daha önceden egitilmis bir modelin üzerine yeni bir egitim yapilabilmesi için pre_trained degiskeninin "True" durumuna getirilmesi gerekir.
 Önceden egitilmis olan datasetin hazirlanmis verileri trained_model klasörü içerisinde saklanir. Ayrintili bilgi iris_recognization.py dosyasi
 içerisinde bulunan örnek kod üzerinde verilmistir.
-- GEREKLI VERILER
+## GEREKLI VERILER
  * /ground_truth klasörü içerisinde Fcn modelinin egitimi için gerekli olan dataset bulunmasi gerekmektedir. Bu dataset içerisinde herbir
 resim için bir "image.jpg" adi ile örnek, sadece iris kisminin beyaz geriye kalan kisimlarin siyah oldugu "iris.jpg" ve ayni sekilde
 sadece göz bebeginin beyaz geriye kalan kisimlarin siyah oldugu "pupil.jpg" resimlerinin bulunmasi gerekmektedir.
