@@ -1,0 +1,4 @@
+program/casia_dataset_examples/*
+program/__pycache__/
+program/ground_truth/*
+program/fcn_model/*
